@@ -26,7 +26,7 @@ Este repositório contém meus códigos de estudo para o framework **Bootstrap**
 Aqui está o código do meu estudo sobre o componente **Accordion** do Bootstrap. Com isso, aprendi a criar seções que podem ser expandidas ou contraídas.
 
 ![Preview Accordion](./preview/accordion.png)
-[Ver código do Accordion]([./accordion](https://github.com/tifanisds/estudo-bootstrap/tree/master/accordion))
+[Ver código do Accordion](https://github.com/tifanisds/estudo-bootstrap/tree/master/accordion)
 
 ---
 

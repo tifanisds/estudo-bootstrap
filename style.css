@@ -1,0 +1,81 @@
+body {
+    background-color: #e3e3e3;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 45px;
+    color: #A567C8;
+    justify-self: center;
+}
+
+h3 {
+    font-size: 30px;
+    color: #8d4cb2;
+    justify-self: center;
+    margin-bottom: 30px;
+}
+
+.accordion {
+    border-radius: 18px;
+}
+
+.accordion-item:first-child .accordion-button {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.accordion-item:last-child .accordion-button.collapsed {
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.accordion-item {
+    border-radius: 18px;   
+    overflow: hidden; 
+    background-color: white; 
+}
+
+.accordion-body {
+    border-radius: 18px;
+}
+
+.accordion-button {
+    border-radius: 18px;
+}
+
+.accordion-header {
+    border-radius: 18px;
+}
+
+.accordion-button {
+    background-color: #A567C8;
+    color: #FFFFFF;
+    border-radius: 18px;
+}
+
+.accordion-header {
+    background-color: #A567C8;
+}
+
+.accordion-item:last-of-type {
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.accordion-item:first-of-type {
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #A567C8;
+    color: #FFF;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+}

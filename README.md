@@ -32,11 +32,12 @@ Aqui está o código do meu estudo sobre o componente **Accordion** do Bootstrap
 
 ## Modal
 
-🔴 **Em progresso**
+🟢 **Concluído**
 
 Estou atualmente trabalhando no componente **Modal**, que permite criar caixas de diálogo interativas.
 
-[Ver código do Modal](./modal)
+![Preview Accordion](./preview/nodal.png)
+[Ver código do Modal](https://github.com/tifanisds/estudo-bootstrap/tree/master/modal)
 
 ---
 

@@ -1,0 +1,46 @@
+.card {
+    border-radius: 51px;
+}
+
+.card-header:first-child {
+    border-radius: 51px 51px 0 0;
+    background-color: #FFFFFF;
+}
+
+.navbar {
+    border: 2px solid #DCEEFF;
+    border-radius: 36px;
+}
+
+.card-body {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.navbar-nav button {
+    border-radius: 26px;
+    background-color: #E6EEF9;
+    color: #175EE0;
+    font-weight: 600;
+    border: none;
+}
+
+.navbar-nav button span {
+    border-radius: 50px;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: #1E1E1E;
+}
+
+.input-group button {
+    border-radius: 51px;
+    display: flex;
+}
+
+.input-group .input-group-text {
+    border-radius: 51px;
+    background-color: #0E53D0;
+    border: #0E53D0;
+}

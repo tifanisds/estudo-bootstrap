@@ -1,20 +1,32 @@
-.card {
-    border-radius: 51px;
+body {
+    background-color: #f2f7fc;
 }
 
+.card {
+    margin-top: 100px;
+    border-radius: 51px;
+    border: none;
+    box-shadow: 0px 0px 10px 2px #DCEEFF;
+}
+
+
+/* Começo da estilização do card-header */
 .card-header:first-child {
     border-radius: 51px 51px 0 0;
     background-color: #FFFFFF;
+    border-bottom: none;
 }
 
-.navbar {
-    border: 2px solid #DCEEFF;
+.card-header .navbar {
+    margin-top: 9px;
+    box-shadow: 0px 0px 10px 0px #DCEEFF;
+    
     border-radius: 36px;
 }
 
-.card-body {
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+.card-header .nav-link {
+    font-size: 20px;
+    margin-left: 30px;
 }
 
 .navbar-nav button {
@@ -22,26 +34,83 @@
     background-color: #E6EEF9;
     color: #175EE0;
     font-weight: 600;
+    font-size: 20px;
     border: none;
+    width: 232px;
+    height: 53px;
 }
 
-.navbar-nav button span {
+.card-header .navbar-nav button div {
+    padding: 0;
+    margin: 0;
     border-radius: 50px;
+    width: 33px;
+    height: 33px;
+    font-size: 20px;
 }
 
-.nav-link {
+.card-header .nav-link {
     font-weight: 700;
     color: #1E1E1E;
 }
 
-.input-group button {
-    border-radius: 51px;
-    display: flex;
+/* Fim da estilização do card-header */
+
+
+/* Começo da estilização do card-body */
+
+.card-body {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
-.input-group .input-group-text {
+.card-body .card-text {
+    width: 513px;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.card-body .card-text span {
+    font-weight: 700;
+}
+
+.card-body .line {
+    display: flex;
+    justify-content: center;
+    width: 510px;
+    height: 1px;
+    background-color: #DFDFDF;
+    margin: 20px auto;
+}
+
+.card-body .input-group button {
+    margin-top: 20px;
+    margin-right: 40px;
     border-radius: 51px;
+    display: flex;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 3px 25px 3px 12px;
+}
+
+.card-body .input-group .input-group-text {
+    margin-top: 20px;
+    border-radius: 51px;
+    width: 55px;
     background-color: #0E53D0;
     border: #0E53D0;
 }
 
+.card-body svg {
+    width: 20px;
+    height: 20px;
+}
+
+.card-body .input-group-text primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Fim da estilização do card-body */

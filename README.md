@@ -41,6 +41,17 @@ Aqui está o código do meu estudo sobre o componente **Modal** do Bootstrap, qu
 
 ---
 
+## Card
+
+🟢 **Concluído**
+
+Aqui está o código do meu estudo sobre o componente **Card** do Bootstrap, que permite criar caixas de conteúdo estilizadas com títulos, textos e botões.
+
+![Preview Card](./preview/modal.png)
+[Ver código do Modal](https://github.com/tifanisds/estudo-bootstrap/tree/master/card)
+
+---
+
 ## Formulário
 
 ⚪ **Não iniciado**
